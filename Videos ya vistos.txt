@@ -1,0 +1,34 @@
+Sección 1: Introducción al curso
+    1 - Introducción
+    2 - ¿Cómo funciona el curso?
+    3 - ¿Cómo hacer preguntas?
+    4 - Instalaciones necesarias y recomendaciones
+    5 - Instalar Angular
+
+Sección 2: Conceptos generales para empezar con Angular y TypeScript
+    6 - Introducción a la sección
+    7 - Temas puntuales de la sección
+    8 - ¿Qué es TypeScript? Y ¿Por qué Angular usa TypeScript?
+    9 - Mitos y realidades de Angular
+
+Sección 3: Base de TypeScript - Sección recomendada
+    10 - Introducción a la sección
+    11 - Temas puntuales de la sección
+    12 - Nota antes de empezar
+    13 - Inicio de proyecto - Introducción a TypeScript
+    14 - Tipos básicos y conceptos generales
+    15 - Objetos, arreglos e interfaces
+    16 - Funciones básicas
+    17 - Funciones con objetos como argumentos
+    18 - Tarea sobre objetos e interfaces
+    19 - Desestructuración de Objetos
+    20 - Desestructuración de Arreglos
+    21 - Desestructuración de argumentos
+    22 - Importaciones y expreciones
+    23 - Clases básicas
+    24 - Constructor de una clase
+    25 - Extender de una clase
+    26 - Genéricos
+    27 - Decoradores de clases
+    28 - Encadenamiento opcional
+    29 - Código fuente de la sección
