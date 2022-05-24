@@ -8,6 +8,7 @@ import { HeroesModule } from './heroes/heroes.module';// importación del módul
 // Crear un módulo llamado ContadorModule
 // declaraciones y exportaciones
 import { ContadorModule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -18,7 +19,8 @@ import { ContadorModule } from './contador/contador.module';
   imports: [
     HeroesModule, // Se agrega el módelo creado
     BrowserModule,
-    ContadorModule
+    ContadorModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]

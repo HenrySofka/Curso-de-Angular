@@ -56,3 +56,18 @@ Sección 4: Introducción a Angular
     49 - Módulos
     50 - Módulos - segunda parte
     51 - Bonus: Hacer respaldo de nuestro proyecto
+    52 - Código fuente de la sección
+
+Sección 5: Expandiendo nuestras bases
+    53 - Introducción a la sección
+    54 - Temas puntuales de la sección
+    55 - Continuación del proyecto
+    56 - Módulo DBZ (Dragon Ball Z)
+    57 - Diseño de la pantalla a trabajar
+    58 - FormsModule
+    59 - ngModel
+    60 - Mostrar listado de personajes
+    61 - Crear componentes hijos
+    62 - @Input
+    63 - Tarea con input y módulos
+    64 - @Outputs y EventEmitter

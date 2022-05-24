@@ -1,0 +1,19 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <!-- [propiedad_componente]="propiedad_del_otro_coponente" -->
+        <app-personajes [personajes]="personajes"> <!-- Se pueden pasar las propiedades de un componente a otro de esta manera -->
+        </app-personajes>
+    </div>
+
+    <div class="col">
+        <!-- Crear el componente agregar -->
+        <!-- De esta manera se hace la comunicación de la infomación entre los componentes -->
+        <app-agregar 
+            [nuevo]="nuevo" 
+            (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"
+        ></app-agregar>
+    </div>
+</div>
