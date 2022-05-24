@@ -32,3 +32,27 @@ Sección 3: Base de TypeScript - Sección recomendada
     27 - Decoradores de clases
     28 - Encadenamiento opcional
     29 - Código fuente de la sección
+
+Sección 4: Introducción a Angular
+    30 - Introducción a la sección
+    31 - Temas puntuales de la sección
+    32 - Introducción a Angular
+    33 - Crear un proyecto de Angular
+    34 - Nota de actualización
+    35 - Explicación de cada archivo del proyecto
+    36 - Explicación de los archivos dentro del SRC
+    37 - App Component
+    38 - Contador App
+    39 - Métodos en el componente
+    40 - Tarea con el contador
+    41 - Crear un componente manualmente
+    42 - Componente de Heroe y separación de directorios
+    43 - Cambios en el template del componente
+    44 - Concepto de "one way data binding" enlazado en una sola vía
+    45 - Crear componente de forma automática: Comando utilizado: ng g c nombre_carpeta
+    46 - Directiva *ngFor
+    47 - Directiva *ngIf
+    48 - Ng-Template y el ngIf-else
+    49 - Módulos
+    50 - Módulos - segunda parte
+    51 - Bonus: Hacer respaldo de nuestro proyecto
