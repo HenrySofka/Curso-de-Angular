@@ -92,3 +92,15 @@ Sección 7: GifsApp - Aplicación para buscar imágenes
     79 - Módulo Shared
     80 - GifsModule y sus componentes
     81 - @ViewChild Obtener referencias a objetos del HTML
+    82 - GifService
+    83 - Controlar el historial de busqueda
+    84 - Giphy Api Key - Giphy Developers: Key: MiTAcCh2dCyGV5m54jv1tt6MVC7T82rA
+    85 - Realizar una petición HTTP
+    86 - Mostrar los resultados en pantalla
+    87 - Colocando un tipado a las peticiones HTTP
+    88 - LocalStorage
+    89 - Cargar imágenes automáticamente
+    90 - Obtener imágenes desde el siedbar
+    91 - HttpParams
+    92 - Animate.style CSS
+    93 - Código fuente de la sección

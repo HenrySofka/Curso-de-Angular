@@ -4,13 +4,18 @@
         Gifs-App
     </h3>
     <hr class="text-white">
+
+    <!-- For que muestra las busquedas -->
     <div class="list-group" list-reset>
-        <a 
-        href="#"
-        class="list-group-item list-group-item-action"
+        <a
+            *ngFor="let item of historial"
+            (click)="buscar(item) "
+            href="#"
+            class="list-group-item list-group-item-action"
         >
-        Dashboard
+        {{ item | titlecase}} <!-- este | es para capitalizar el item del arreglo -->
         </a>
     </div>
+    <!-- For que muestra las busquedas -->
 </div>
 <!-- Sidebar -->
