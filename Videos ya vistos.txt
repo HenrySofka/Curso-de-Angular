@@ -71,3 +71,24 @@ Sección 5: Expandiendo nuestras bases
     62 - @Input
     63 - Tarea con input y módulos
     64 - @Outputs y EventEmitter
+    65 - Bonus: Depuración de la aplicación
+    66 - Servicios
+    67 - Centralizar el acceso de los personajes en el servicio
+    68 - Métodos en el servicio
+    69 - Código fuente de la sección
+
+Sección 6: Despliegues rápidos a producción
+    70 - Introducción a la sección
+    71 - Temas puntuales de la sección
+    72 - Generar build de producción
+    73 - Desplegar en Netlify
+
+Sección 7: GifsApp - Aplicación para buscar imágenes
+    74 - Introducción a la sección
+    75 - Temas puntuales de la sección
+    76 - Demostración del objetivo final de la sección
+    77 - Inicio del proyecto - GifsApp
+    78 - Diseño inicial de nuestra aplicación de Gifs
+    79 - Módulo Shared
+    80 - GifsModule y sus componentes
+    81 - @ViewChild Obtener referencias a objetos del HTML

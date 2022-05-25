@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { Personaje } from '../interfaces/dbz.interface';
+import { DbzService } from '../services/dbz.service';
 
 @Component({
   selector: 'app-personajes',
@@ -7,8 +8,15 @@ import { Personaje } from '../interfaces/dbz.interface';
 })
 export class PersonajesComponent {
 
-  // Se puede definir otro nombre a la propiedad, colocando el nombre deseado al @Input
-  @Input()
-  personajes: Personaje[] = [];
+  // se crea un getter con los personajes que estan en el servicio en lugar de tenerlos
+  // en este componente 
+  get personajes(): Personaje[]{
+    return this.dbzService.personajes;
+  }
+
+  //Inyección de dependencias
+  constructor(private dbzService: DbzService){
+
+  }
 
 }
