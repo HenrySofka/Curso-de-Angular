@@ -1,0 +1,28 @@
+<h2>Por Capital</h2>
+<hr>
+
+<div class="row">
+    <!-- Componente Input -->
+    <!-- Se le pasa por parametro a el método buscar() el evento emitido por onEnter
+    que en este caso sería el termino de la barra de busqueda -->
+    <app-pais-input
+        (onEnter)="buscar($event)"
+        placeholder="Buscar capital..."
+    ></app-pais-input>
+</div>
+
+<hr>
+
+<div 
+    class="alert alert-danger"
+    *ngIf="hayError"
+>
+    No se encontró nada con el término: {{ termino }}
+</div>
+
+<div class="row" *ngIf="paises.length > 0">
+    <div class="col">
+        <!-- Componente Tabla -->
+        <app-pais-tabla [paises]="paises"></app-pais-tabla>
+    </div>
+</div>

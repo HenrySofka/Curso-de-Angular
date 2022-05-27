@@ -104,3 +104,26 @@ Sección 7: GifsApp - Aplicación para buscar imágenes
     91 - HttpParams
     92 - Animate.style CSS
     93 - Código fuente de la sección
+
+Sección 8: SPA - PaisesApp
+    94 - Introducción a la sección
+    95 - Temas puntuales de la sección
+    96 - Demostración de la sección
+    97 - Inicio de proyecto - PaisesApp
+    98 - Estructura y explicación de la aplicación de países
+    99 - Creando los módulos y los componentes básicos
+    100 - Estructura HTML de nuestra aplicación
+    101 - RouterModule Rutas en nuestra aplicación
+    102 - RouterLink
+    103 - Componente Siedbar
+    104 - Componente para buscar por país
+    105 - Nota de actualización
+    106 - Servicio para buscar países
+    107 - Manejo de errores
+    108 - Tipado de la petición de RestCountries
+    109 - Llenar la tabla de países
+    110 - Componente Input y Tabla
+    111 - Funcionalidades del componente PaisInputComponent
+    112 - DebounceTime - en el input: Caja de sugerencias
+    113 - Por Capital
+    114 - Ver país de forma independiente
