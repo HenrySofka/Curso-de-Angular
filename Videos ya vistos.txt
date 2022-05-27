@@ -127,3 +127,31 @@ Sección 8: SPA - PaisesApp
     112 - DebounceTime - en el input: Caja de sugerencias
     113 - Por Capital
     114 - Ver país de forma independiente
+    115 - RxJs - SwitchMap
+    116 - Terminar la pantalla de ver país
+    117 - Fin de la pantalla de ver país
+    118 - Código fuente de la sección
+
+Sección 9: Continuación aplicación de Países - Segerencias, debounce y más
+    119 - Introducción a la sección
+    120 - Temas puntuales de la sección
+    121 - Continuación del proyecto - PaisesApp
+    122 - ngClass, class y [class.]
+    123 - Clases de CSS condicionales
+    124 - Mostrar países por región
+    125 - Nota de actualización
+    126 - Optimizar las peticiones HTTP
+    127 - Animaciones de CSS
+    128 - Mostrar sugerencias al escribir autocomplete
+    129 - Código fuente de la sección
+
+Sección 10 - Pipes de Angular
+    130 - Introducción a la sección
+    131 - Temas puntuales de la sección
+    132 - Demostración del objetivo de la sección
+    133 - Inicio del proyecto - PipesApp
+    134 - Introducción a los Pipes de Angular
+    135 - Instalar PrimeNg
+    136 - Prime Button y estilo global
+    137 - Cards y botones con íconos
+    138 - PrimeNg module
