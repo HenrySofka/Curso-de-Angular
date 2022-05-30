@@ -180,3 +180,9 @@ Sección 11: Pipes personalizados
     159 - Temas puntuales de la sección
     160 - Continuación del proyecto - PipesApp
     161 - Pipe personalizado - mayusculaPipe
+    162 - Valor y argumentos a los pipes personalizados
+    163 - PrimeTable y PrimeToolbar
+    164 - Llenar una PrimeTable con data
+    165 - Tarea pipe personalizado VuelaPipe
+    166 - Ordenar héroes por nombre OrdenarPipe
+    167 - Parametrizar nuestros pipe personalizado

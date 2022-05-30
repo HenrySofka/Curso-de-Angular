@@ -6,6 +6,8 @@ import { BasicosComponent } from './pages/basicos/basicos.component';
 import { OrdenarComponent } from './pages/ordenar/ordenar.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { MayusculasPipe } from './pipes/mayusculas.pipe';
+import { ArmaPipe } from './pipes/arma.pipe';
+import { OrdenarPipe } from './pipes/ordenar.pipe';
 
 
 
@@ -16,6 +18,8 @@ import { MayusculasPipe } from './pipes/mayusculas.pipe';
     BasicosComponent,
     OrdenarComponent,
     MayusculasPipe,
+    ArmaPipe,
+    OrdenarPipe
   ],
   exports:[
     NumerosComponent,
