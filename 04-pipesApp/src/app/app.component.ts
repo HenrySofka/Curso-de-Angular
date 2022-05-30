@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PrimeNGConfig } from 'primeng/api';
 
 @Component({
   selector: 'app-root',
@@ -7,16 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  nombre: string = 'henry ferreira';
-  valor: number = 1000;
-  objeto = {
-    nombre: 'Haff'
-  }
-
-  mostrarNombre():void{
-    console.log(this.nombre);
-    console.log(this.valor);
-    console.log(this.objeto);
+  
+  constructor(private primengConfig: PrimeNGConfig) {}
+  //Efecto de burbuja en la app 
+  ngOnInit() {
+    this.primengConfig.ripple = true;
   }
 
 

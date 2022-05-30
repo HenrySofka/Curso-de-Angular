@@ -155,3 +155,28 @@ Sección 10 - Pipes de Angular
     136 - Prime Button y estilo global
     137 - Cards y botones con íconos
     138 - PrimeNg module
+    139 - PrimeNg - Menubar
+    140 - Rutas de nuestra aplicación
+    141 - Cambiar las rutad utilizando el MenuBar
+    142 - PrimeFlex
+    143 - UpperCase, LowerCase y TitleCase Pipes
+    144 - Date Pipe
+    145 - Cambiar el idioma por defecto
+    146 - Timezone y otros idiomas
+    147 - DecimalPipe
+    148 - CurrencyPipe y PercentPipe
+    149 - PrimeNg - Fieldset
+    150 - i18nSelectPipe
+    151 - i18nPluralPipe
+    152 - Tarea sobre i18nPipes y PrimeNg
+    153 - SlicePipe
+    154 - KeyValuePipe
+    155 - JsonPipe
+    156 - AsyncPipe
+    157 - Código fuente de la sección
+
+Sección 11: Pipes personalizados
+    158 - Introducción a la sección
+    159 - Temas puntuales de la sección
+    160 - Continuación del proyecto - PipesApp
+    161 - Pipe personalizado - mayusculaPipe
