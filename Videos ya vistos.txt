@@ -186,3 +186,27 @@ Sección 11: Pipes personalizados
     165 - Tarea pipe personalizado VuelaPipe
     166 - Ordenar héroes por nombre OrdenarPipe
     167 - Parametrizar nuestros pipe personalizado
+    168 - PrimeNg - Sortable Table
+    169 - Código fuente de la sección
+
+Sección 12: HeroesApp - Rutas hijas y Lazyload
+    170 - Introducción a la sección
+    171 - Temas puntuales de la sección
+    172 - Demostración del objetivo final de la sección
+    173 - Inicio de proyecto - HeroesApp
+    174 - Módulos y componentes iniciales
+    175 - Tutas principales - Root
+    176 - Rutas hijas y LazyLoad AuthRoutes
+    177 - Tarea - Rutas Hijas de Héroes
+    178 - Comunicación entre Resolución de la tarea Rujas Hijas de Héroes
+    179 - Mostrar Rutas Hijas Segundo RouterOutlet
+    180 - Código fuente de la sección
+
+Sección 13: HeroesApp - Angular Material & Angular Flex-Layout
+    181 - Introducción a la sección
+    182 - Temas puntuales de la sección
+    183 - Demostración del objetivo final de la sección
+    184 - Continuación del proyecto - HeroesApp
+    185 - Material Sidenav, Toolbar e iconos
+    186 - Material Navlist
+    187 - Heroes Backend - json-server
