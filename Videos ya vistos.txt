@@ -209,7 +209,7 @@ Sección 13: HeroesApp - Angular Material & Angular Flex-Layout
     184 - Continuación del proyecto - HeroesApp
     185 - Material Sidenav, Toolbar e iconos
     186 - Material Navlist
-    187 - Heroes Backend - json-server
+    187 - Heroes Backend - json-server: json-server --watch db.json
     188 - Heroes Service Traer información de los héroes
     189 - Interfaz Héroe
     190 - Material Card - Flex Layout
@@ -223,3 +223,31 @@ Sección 13: HeroesApp - Angular Material & Angular Flex-Layout
     198 - Material Autocomplete
     199 - Autocomplete - Segunda Parte
     200 - Tarea Autocomplete cuando no encontró nada
+    201 - Resumen de la sección
+    202 - Código fuente de la sección
+
+Sección 14: HeroesApp - CRUD (Continuación con Angular Material)
+    203 - Introducción a la sección
+    204 - Temas puntuales de la sección
+    205 - Demostración del objetivo final de la sección
+    206 - Continuación del proyecto - HeroesApp
+    207 - Diseño de la pantalla para agregar héroes
+    208 - Insertar en base de datos
+    209 - Editar héroes
+    210 - Excepciones en nuestro ImagenPipe
+    211 - Eliminar registro
+    212 - Pipes Puros e Impuros
+    213 - Material Snackbar
+    214 - Material Dialog
+    215 - Información desde y hacia el dialog
+    216 - Adecuar los textos de la pantalla de agregar
+    217 - Código fuente de la sección
+
+Sección 15: Protección de Rutas
+    218 - Introducción a la sección
+    219 - Temas puntuales de la sección
+    220 - Continuación del proyecto - HeroesApp
+    221 - Pantalla de Login Básico
+    222 - AuthService - Servicio para mantener el estado de la autenticación
+    223 - Mostrar la información del usuairo activo
+    224 - Angular Guards - CanLoad
