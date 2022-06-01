@@ -1,1 +1,27 @@
-<p>heroe works!</p>
+<mat-grid-list cols="1" *ngIf="!heroe; else divHeroe">
+    <mat-grid-tile>
+        <mat-spinner></mat-spinner>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<ng-template #divHeroe>
+    <div fxLayout="row wrap" fxLayout.xs="column"  fxLayoutAlign="center" fxLayoutGap="20px" >
+        <div fxFlex="50" fxFlex.lg="15" fxFlex.sm="30">
+            <!-- Componente para la card de heroes -->
+            <app-heroe-tarjeta [heroe]="heroe"></app-heroe-tarjeta>
+            <!-- Componente para la card de heroes -->
+        </div>
+
+        <div fxFlex="50" fxFlex.lg="15" fxFlex.sm="30">
+            <!-- Componente para la card de heroes -->
+            <pre>{{ heroe | json }}</pre>
+            <!-- Componente para la card de heroes -->
+            <br>
+    
+            <button mat-button color="warn" (click)="regresar()">
+                Regresar
+            </button>
+        </div>
+
+    </div>
+</ng-template>

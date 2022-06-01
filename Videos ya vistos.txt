@@ -210,3 +210,16 @@ Sección 13: HeroesApp - Angular Material & Angular Flex-Layout
     185 - Material Sidenav, Toolbar e iconos
     186 - Material Navlist
     187 - Heroes Backend - json-server
+    188 - Heroes Service Traer información de los héroes
+    189 - Interfaz Héroe
+    190 - Material Card - Flex Layout
+    191 - Flex Layout - Diferentes resoluciones
+    192 - Tarea - HeroeTarjetaComponent
+    193 - Tarea - PipeImagen
+    194 - Tarea - Ruta Héroe y Editar Héroe
+    195 - Pantalla de Héroe
+    196 - Diseño de la pantalla de Héroe
+    197 - Variables de entorno
+    198 - Material Autocomplete
+    199 - Autocomplete - Segunda Parte
+    200 - Tarea Autocomplete cuando no encontró nada
