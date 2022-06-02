@@ -251,3 +251,20 @@ Sección 15: Protección de Rutas
     222 - AuthService - Servicio para mantener el estado de la autenticación
     223 - Mostrar la información del usuairo activo
     224 - Angular Guards - CanLoad
+    225 - CanActivated
+    226 - Mantener la sesión del usuario
+    227 - Código fuente de la sección
+
+Sección 16: Formularios - Template y Lazyload
+    228 - Introducción a la sección
+    229 - Temas puntuales de la sección
+    230 - Inicio de la sección - Formularios
+    231 - Creación de módulos necesarias
+    232 - Componentes y LazyLoad de formularios
+    233 - SideMenu
+    234 - Template: Diseño del formulario básico
+    235 - Template: FormsModule
+    236 - Template: Mostrar mensaje de error
+    237 - ViewChild
+    238 - Template: validar número igual mayor a 0
+    239 - Directivas personalizadas CustomMin (Opcional)
