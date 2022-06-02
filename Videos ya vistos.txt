@@ -268,3 +268,11 @@ Sección 16: Formularios - Template y Lazyload
     237 - ViewChild
     238 - Template: validar número igual mayor a 0
     239 - Directivas personalizadas CustomMin (Opcional)
+    240 - Template: Limpiar el formulario
+    241 - Template: Formularios dinámicos y arreglos
+    242 - Agregar elementos de forma dinámica
+    243 - Eliminar elemento creado de forma dinámica
+    244 - Agregar juegos favoritos
+    245 - Template: Radio, Check y Switches
+    246 - Template: Validanto Radio, Check y Switches
+    247 - Código fuente de la sección

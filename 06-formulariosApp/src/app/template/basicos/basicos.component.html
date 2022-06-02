@@ -5,7 +5,7 @@
 <div class="row">
     <div class="col">
         <!-- Formulario -->
-        <form (ngSubmit)="guardar()" #miFormulario="ngForm" autocomplete="of">
+        <form (ngSubmit)="guardar()" #miFormulario="ngForm" autocomplete="off">
             <!-- Campo de producto -->
             <div class="mb-3 row">
                 <label for="col-sm-3 col-form-label"> Producto </label>
@@ -15,7 +15,7 @@
                         class="form-control"
                         placeholder="Nombre del productor"
                         name="producto"
-                        ngModel
+                        [ngModel]="initForm.producto"
                         required
                         minlength="3"
                     >
@@ -39,7 +39,7 @@
                         class="form-control"
                         placeholder="Preico del productor"
                         name="precio"
-                        ngModel
+                        [ngModel]="initForm.precio"
                         required
                         min="0"
                     >
@@ -63,7 +63,7 @@
                         class="form-control"
                         placeholder="Existencias del productor"
                         name="existencias"
-                        ngModel
+                        [ngModel]="initForm.existencias"
                         customMin
                         [minimo]="0"
                         required
