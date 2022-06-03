@@ -276,3 +276,28 @@ Sección 16: Formularios - Template y Lazyload
     245 - Template: Radio, Check y Switches
     246 - Template: Validanto Radio, Check y Switches
     247 - Código fuente de la sección
+
+Sección 17: Formularios Reactivos
+    248 - Introducción a la sección
+    249 - Temas puntuales de la sección
+    250 - Continuación del proyecto - Formularios
+    251 - Primeros pasos en formularios reactivos
+    252 - FormBuilder
+    253 - Validaciones básicas - Forms Validator
+    254 - Mostrar mensaje de error
+    255 - Submit del formulario
+    256 - Tarea: Validar un nuevo campo
+    257 - FormArray
+    258 - Agregar controles al FormArray
+    259 - Eliminar elementos de un FormArray
+    260 - Formularios Reactivos: Switches
+    261 - Actualizar el valor de la persona
+    262 - Documentación de formularios reactivos Angular.io
+    263 - Código fuente de la sección
+
+Sección 18: Formularios: Validaciones manuales y asíncronas
+    264 - Inicio de sección
+    265 - Temas puntuales de la sección
+    266 - Continuación del proyecto
+    267 - Resolución de la tarea - Ruta y LazyLoad
+    268 - Diseño de la pantalla de registro

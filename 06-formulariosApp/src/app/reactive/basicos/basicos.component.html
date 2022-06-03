@@ -1,1 +1,103 @@
-<p>basicos works!</p>
+<!-- HTML para Template: Básicos -->
+<h2>Reactivo: Básicos</h2>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <!-- Formulario -->
+        <form (ngSubmit)="guardar()" autocomplete="off" [formGroup]="miFormulario">
+            <!-- Campo de producto -->
+            <div class="mb-3 row">
+                <label for="col-sm-3 col-form-label"> Producto </label>
+                <div class="col-sm-9">
+                    <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Nombre del productor"
+                        formControlName="nombre"
+                    >
+                    <!-- Mensaje de error -->
+                    <span 
+                        class="form-text text-danger"
+                        *ngIf="validarNombre('nombre')"
+                    >
+                        Debe de ser de 3 letras
+                    </span>
+                    <!-- ---------------- -->
+                </div>
+            </div>
+            <!-- ----------------- -->
+            <!-- Campo de precio de producto -->
+            <div class="mb-3 row">
+                <label for="col-sm-3 col-form-label"> Precio </label>
+                <div class="col-sm-9">
+                    <input 
+                        type="number" 
+                        class="form-control" 
+                        placeholder="Preico del productor"
+                        formControlName="precio"
+                    >
+                    <!-- Mensaje de error -->
+                    <span 
+                        class="form-text text-danger"
+                        *ngIf="validarNombre('precio')"
+                    >
+                        El precio de ser igual o mayor a 0
+                    </span>
+                    <!-- ---------------- -->
+                </div>
+            </div>
+            <!-- --------------------------- -->
+            <!-- Campo de existencias de producto -->
+            <div class="mb-3 row">
+                <label for="col-sm-3 col-form-label"> Existencias </label>
+                <div class="col-sm-9">
+                    <input 
+                        type="number" 
+                        class="form-control" 
+                        placeholder="Existencias del productor"
+                        formControlName="existencias"
+                    >
+                    <!-- Mensaje de error -->
+                    <span 
+                        class="form-text text-danger"
+                        *ngIf="validarNombre('existencias')"
+                    >
+                        Las existencias deben ser iguales o mayores a 0
+                    </span>
+                     <!-- ---------------- -->
+                </div>
+            </div>
+            <!-- -------------------------------- -->
+            <!-- Boton para el submit -->
+            <div class="row">
+                <div class="col">
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary float-end"
+                    >
+                        Guardar
+                    </button>
+                </div>
+            </div>
+            <!-- -------------------- -->
+        </form>
+        <!-- ---------- -->
+    </div>
+</div>
+<!-- --------------------------- -->
+
+<div class="row">
+    <div class="col">
+        <span>Valid</span>
+        <pre>{{ miFormulario.valid | json }}</pre>
+        <span>Pristine</span>
+        <pre>{{ miFormulario.pristine | json }}</pre>
+        <span>Touched</span>
+        <pre>{{ miFormulario.touched | json }}</pre>
+        <span>Value</span>
+        <pre>{{ miFormulario.value | json }}</pre>
+        <span>Precio</span>
+        <pre>{{ miFormulario.controls['precio'].errors | json }}</pre>
+    </div>
+</div>
