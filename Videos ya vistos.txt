@@ -328,3 +328,14 @@ Sección 19: Formularios Reactivos: Multiples selectores anidados
     291 - Mejorar la experiencia de usuario
     292 - Cambiar código de fronteras por los nombres de los países
     293 - Código fuente de la sección
+
+Sección 19: Formularios Reactivos: Multiples selectores anidados
+    294 - Inicio de sección
+    295 - Temas de la sección
+    296 - Inicio del proyecto - LifeCycle
+    297 - Implementar todos los hooks del ciclo de vida
+    298 - Explicación sobre los ciclos de vida
+    299 - ngOnChanges
+    300 - ngOnDestroy
+    301 - Más información sobre el ciclo de vida
+    302 - Código fuente de la sección
