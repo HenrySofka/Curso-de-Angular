@@ -301,3 +301,30 @@ Sección 18: Formularios: Validaciones manuales y asíncronas
     266 - Continuación del proyecto
     267 - Resolución de la tarea - Ruta y LazyLoad
     268 - Diseño de la pantalla de registro
+    269 - Validar contra una expresión regular
+    270 - Evaluar un email
+    271 - Validaciones personalizadas
+    272 - Separar la lógica de validaciones del componente
+    273 - Validar contraseñas iguales
+    274 - Preparaciones para Validaciones Asíncronas
+    275 - Validaciones Asíncronas
+    276 - Estado del formulario
+    277 - Errores personalizados
+    278 - Mensaje de error personalizado
+    279 - Código fuente de la sección
+
+Sección 19: Formularios Reactivos: Multiples selectores anidados
+    280 - Inicio de sección
+    281 - Temas puntuales de la sección
+    282 - Demostración del objetivo de la sección
+    283 - Inicio del proyecto - Selectores
+    284 - Estructura de directorios para la aplicación
+    285 - Formulario reactivo - primer selector
+    284 - Selector de regiones
+    287 - Segundo selector anidado
+    288 - Limpiar país cuando el primer selector cambia
+    289 - Tercer selector anidado - Fronteras
+    290 - Llenar tercer selector - Fronteras
+    291 - Mejorar la experiencia de usuario
+    292 - Cambiar código de fronteras por los nombres de los países
+    293 - Código fuente de la sección
