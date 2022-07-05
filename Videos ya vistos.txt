@@ -329,7 +329,7 @@ Sección 19: Formularios Reactivos: Multiples selectores anidados
     292 - Cambiar código de fronteras por los nombres de los países
     293 - Código fuente de la sección
 
-Sección 19: Formularios Reactivos: Multiples selectores anidados
+Sección 20: Formularios Reactivos: Multiples selectores anidados
     294 - Inicio de sección
     295 - Temas de la sección
     296 - Inicio del proyecto - LifeCycle
@@ -339,3 +339,13 @@ Sección 19: Formularios Reactivos: Multiples selectores anidados
     300 - ngOnDestroy
     301 - Más información sobre el ciclo de vida
     302 - Código fuente de la sección
+
+Sección 21: Formularios Reactivos: Multiples selectores anidados
+    303 - Inicio de sección
+    304 - Temas puntuales de la sección
+    305 - Demostración del objetivo de la sección
+    306 - Inicio del proyecto - MapasApp
+    307 - Creando los componentes necesarios y rutas
+    308 - Menú de la aplicación
+    309 - Mostrar un mapa en pantalla completa
+    310 - Punto central, zoom y accessToken de forma global
